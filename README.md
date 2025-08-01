@@ -36,7 +36,7 @@ I'm an aspiring software engineer passionate about front-end development and use
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio Website](https://Niki415-cpu.github.io/portfolio)
+👉 [View Portfolio Website](https://Niki415-cpu.github.io/MyPortfolio)
 
 ## 📫 Contact Me
 
