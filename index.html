@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONT AWESOME-->
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    
+    <!--HEADER DESIGN-->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+      <!--HOME SECTION DESIGN-->
+`
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="mypic.jpg" alt="My Photo" width="400">
+        </div>
+        <div class="home-content">
+            <h1>Hi, Myself Nikitha Sai</h1>
+            <h3>I'm a Full stack Developer</h3>
+            <p> I passionate and dedicated BTech graduate with a strong interest in web development and software engineering. I enjoy building clean, user-friendly websites using HTML, CSS, and JavaScript. One of my recent projects is an AI-based face recognition system for attendance management. I'm eager to learn more technologies and grow my skills to become a successful software engineer.</p>
+        </div>
+        <div class="Social-icons">
+            <a href="https://www.linkedin.com/in/nikitha-sai-331b2929b"target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" width="30"></a>
+            <a href="https://github.com/Niki415-cpu"target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30"></a>
+        </div>
+        <a href="Nikitha_Resume.pdf" download class="btn">Download CV</a>
+    </section>
+
+    <!--ABOUT SECTION DESIGN-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="mypic.jpg" alt="My Photo" width="200">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>Full Stack Developer</h3>
+            <p>I passionate and dedicated BTech graduate with a strong interest in web development and software engineering. I enjoy building clean, user-friendly websites using HTML, CSS, and JavaScript. One of my recent projects is an AI-based face recognition system for attendance management. I'm eager to learn more technologies and grow my skills to become a successful software engineer.</p>
+            <p>I'm currently learning backend technologies like Node.js and Express.js. I'm passionate about building complete web application and love exploring new tools. My long-term goal is to become a full-stack developer.</p>
+        </div>
+    </section>
+
+    <!--SKILLS SECTION DESIGN-->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My Skills</h2>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!--EDUCATION SECTION DESIGN-->
+
+    <section class="education" id="education">
+        <h1 class="heading">My Education</h1>
+        <div class="education-table-container">
+          <table class="education-table">
+              <tr>
+                <th>SNo</th>
+                <th>Qualification</th>
+                <th>School/College</th>
+                <th>Board/University</th>
+                <th>Year</th>
+                <th>CGPA</th>
+              </tr>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>10th</td>
+                <td>Sri Chaitanya Techno School</td>
+                <td>State Board</td>
+                <td>2018</td>
+                <td>9.5</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Intermediate</td>
+                <td>Sri Chaitanya Junior College</td>
+                <td>State Board</td>
+                <td>2020</td>
+                <td>8.7</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>B.TECH</td>
+                <td>NRI Institute of technology</td>
+                <td>JNTUK</td>
+                <td>2024</td>
+                <td>7.2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+     </section>
+
+     <!--PROJECT SECTION DESIGN-->
+
+     <section class="project" id="project">
+        <h1>My Project</h1>
+        <div class="project-details">
+        <h2>Project Title: AI-Based Face Recognition for Attendance</h2>
+        <p><strong>Objective:</strong> The aim of the project is to automate attendance using AI and face recognition technology, ensuring accuracy and reducing manual work.</p>
+        <p><strong>My Role:</strong> I worked on integrating the face recognition system using Python and OpenCV, and ensured real-time detection and logging into the system.</p>
+        <p><strong>Description:</strong> This system captures the live video, detects and identifies faces, and marks attendance by storing the data in a database. It eliminates proxies and improves attendance reliability.</p>
+        <p><strong>Advantages:</strong></p>
+        <ul>
+            <li>Reduces manual attendance work</li>
+            <li>Prevents proxy attendance</li>
+            <li>Improves accuracy and saves time</li>
+        </ul>
+        </div>
+    </section>
+
+
+    <!--CONTACT SECTION DESIGN-->
+
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
